@@ -1,7 +1,9 @@
+import { Title } from '@/components'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hola!</h1>
-    </div>
+    <>
+      <Title title="Tienda" subtitle="Todos los productos" className="mb-2" />
+    </>
   )
 }
